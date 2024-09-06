@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/your_database
+    username: root
+    password: your_password
+  jpa:
+    hibernate:
+      ddl-auto: update
+
+razorpay:
+  key: rzp_test_Whgqy7qFgkrNTI
+  secret: IQBHoz0ofov7WK7uIJn6tfmx
